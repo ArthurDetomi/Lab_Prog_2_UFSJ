@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <string.h>
 
 typedef struct aluno {
   int matricula;
@@ -52,7 +53,7 @@ void print_names_min_and_max_grade(aluno *alunos, int n) {
   int min_index_pos = find_index_min_value_array(notas, n);
   int max_index_pos = find_index_max_value_array(notas, n);
 
-  printf("Aluno com menor nota:\n");
+  printf("\nAluno com menor nota:\n");
   printf_aluno(alunos[min_index_pos]);
   printf("Aluno com maior nota:\n");
   printf_aluno(alunos[max_index_pos]);
@@ -73,6 +74,7 @@ int main() {
 
     getchar();
     fgets(a.nome, 50, stdin);
+    a.nome[strlen(a.nome) - 1] = '\0';
 
     printf("Nota:");
     scanf("%lf", &a.nota);

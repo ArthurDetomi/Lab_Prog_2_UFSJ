@@ -1,4 +1,6 @@
 **/*.out
+**/*.html
+**/Selected files_files
 **/*.txt
 .idea/
 .vscode/

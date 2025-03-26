@@ -29,9 +29,11 @@ int main() {
 
   int qtd_raizes = raizes(A, B, C, &X1, &X2);
 
-  if (qtd_raizes > 0) {
+  if (qtd_raizes == 2) {
     printf("A quantidade de raizes é %d, x1 = %.2f, x2 = %.2f\n", qtd_raizes,
            X1, X2);
+  } else if (qtd_raizes == 1) {
+    printf("A quantidade de raizes é %d, x1 = x2 = %.2f\n", qtd_raizes, X1);
   } else {
     printf("Não possui raizes reais\n");
   }
