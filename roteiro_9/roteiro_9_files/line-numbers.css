@@ -1,0 +1,18 @@
+/* Line numbers */
+
+table {
+  border: none;
+  border-collapse: collapse;
+}
+.line-number {
+  border-right: thin solid silver;
+  padding-right: 0.3em;
+  text-align: right;
+  vertical-align: top;
+}
+.line-text {
+  padding-left: 0.7em;
+  white-space: pre-wrap;
+}
+
+/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8uL3NyYy9jc3MvbGluZS1udW1iZXJzLmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQSxpQkFBaUI7O0FBRWpCO0VBQ0UsWUFBWTtFQUNaLHlCQUF5QjtBQUMzQjtBQUNBO0VBQ0UsK0JBQStCO0VBQy9CLG9CQUFvQjtFQUNwQixpQkFBaUI7RUFDakIsbUJBQW1CO0FBQ3JCO0FBQ0E7RUFDRSxtQkFBbUI7RUFDbkIscUJBQXFCO0FBQ3ZCIiwic291cmNlUm9vdCI6IiJ9 */
