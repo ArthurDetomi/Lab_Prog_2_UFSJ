@@ -12,7 +12,7 @@
 - 📖 [Roteiro 7](/roteiro_7/212050034_roteiro7.pdf)
 - 📖 [Roteiro 8](/roteiro_8/212050034_roteiro8.pdf)
 - 📖 [Roteiro 9](/roteiro_9/212050034_roteiro9.pdf)
-- 📖 [Roteiro 10](/roteiro_9/212050034_roteiro10.pdf)
+- 📖 [Roteiro 10](/roteiro_10/212050034_roteiro10.pdf)
 
 ---
 
