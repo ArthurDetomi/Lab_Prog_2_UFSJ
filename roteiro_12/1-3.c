@@ -115,7 +115,15 @@ int main() {
   printf("Digite um nome de um aluno para busca:\n");
   scanf("%s", al_busca.nome);
 
+  printf("Nome de aluno buscado : %d\n", al_busca.matricula);
+
   QuickSort(alunos, 0, n - 1, comparaNome);
+
+  printf("Lista de alunos cadastrados:\n");
+  for (int i = 0; i < n; i++) {
+    printf("{%s, %d}, ", alunos[i].nome, alunos[i].matricula);
+  }
+  printf("\n");
 
   int index = rec_buscaBinaria(alunos, 0, n - 1, al_busca, comparaNome);
 
@@ -134,6 +142,8 @@ int main() {
   scanf("%d", &al_busca.matricula);
 
   QuickSort(alunos, 0, n - 1, comparaMatricula);
+
+  printf("Matricula buscada : %d\n", al_busca.matricula);
 
   index = rec_buscaBinaria(alunos, 0, n - 1, al_busca, comparaMatricula);
 

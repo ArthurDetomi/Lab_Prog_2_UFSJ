@@ -113,8 +113,12 @@ int main() {
     Temporizador tempo_teste;
     iniciarTemporizador(&tempo_teste);
 
+    printf("Elemento buscado = %d\n", value);
+
     switch (i) {
     case PESQUISA_SEQUENCIAL:
+
+      printf("---------- Busca Sequencial ----------\n");
 
       index = buscaSequencial(array_original, n, value, &comp);
 
@@ -126,6 +130,8 @@ int main() {
 
       break;
     case PESQUISA_BINARIA:
+      printf("---------- Busca binária ----------\n");
+
       index = it_buscaBinaria(array_original, 0, n - 1, value, &comp);
 
       if (index != -1) {
