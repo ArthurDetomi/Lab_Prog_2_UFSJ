@@ -1,8 +1,3 @@
-/*---------------- File: Hash.c  -----------------------+
-|Tabela Hash (Dinâmica)                                 |
-| | | | | Implementado por Guilherme C. Pena em 24/11/2023      |
-+-------------------------------------------------------+ */
-
 #ifndef HASH_H
 #define HASH_H
 

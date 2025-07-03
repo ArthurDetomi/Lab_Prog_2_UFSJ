@@ -115,7 +115,7 @@ int main() {
   printf("Digite um nome de um aluno para busca:\n");
   scanf("%s", al_busca.nome);
 
-  printf("Nome de aluno buscado : %d\n", al_busca.matricula);
+  printf("Nome de aluno buscado : %s\n", al_busca.nome);
 
   QuickSort(alunos, 0, n - 1, comparaNome);
 

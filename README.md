@@ -14,6 +14,8 @@
 - 📖 [Roteiro 9](/roteiro_9/212050034_roteiro9.pdf)
 - 📖 [Roteiro 10](/roteiro_10/212050034_roteiro10.pdf)
 - 📖 [Roteiro 11](/roteiro_11/212050034_roteiro11.pdf)
+- 📖 [Roteiro 12](/roteiro_12/212050034_roteiro12.pdf)
+- 📖 [Roteiro 13](/roteiro_13/212050034_roteiro13.pdf)
 
 ---
 
